@@ -4,13 +4,13 @@ manifest:
       url-base: https://github.com/zmkfirmware
 
     # Nice view gem
-    - name: m165437
-      url-base: https://github.com/M165437
+    # - name: m165437
+    #   url-base: https://github.com/M165437
 
     # nice view elemental
     - name: kevinpastor
       url-base: https://github.com/kevinpastor
-    
+
   projects:
     - name: zmk
       remote: zmkfirmware
