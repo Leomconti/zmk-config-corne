@@ -2,15 +2,26 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+
+    # Nice view gem
     - name: m165437
       url-base: https://github.com/M165437
+
+    # nice view elemental
+    - name: kevinpastor
+      url-base: https://github.com/kevinpastor
+    
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: nice-view-gem
-      remote: m165437
+    # Nice view gem
+    # - name: nice-view-gem
+    #   remote: m165437
+    #   revision: main
+    - name: nice-view-elemental
+      remote: kevinpastor
       revision: main
   self:
     path: config
